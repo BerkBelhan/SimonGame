@@ -66,7 +66,7 @@ function nextSequence(){
 }
 
 function playSound(name){
-    var audio = new Audio('https://github.com/BerkBelhan/SimonGame/blob/main/' + name +'.mp3');
+    var audio = new Audio('https://github.com/BerkBelhan/SimonGame/blob/main/' + name +'.mp3?raw=true');
     audio.play(); 
 }
 
